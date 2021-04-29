@@ -27,5 +27,10 @@ class Game
         $this->difficulty = $difficulty;
         $this->player = new Player($playerType, $playerName);
     }
+
+    public function run()
+    {
+        echo 'Le jeu démarre !';
+    }
     
 }

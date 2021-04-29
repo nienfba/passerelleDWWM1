@@ -17,7 +17,8 @@ else {
 
     echo '<img src="www/images/'.$player->getPicture().'">';
     echo $player->getMessage();
-
+ 
+    
 
 
     // Création du jeu avec les données du formulaire

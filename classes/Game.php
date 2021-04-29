@@ -20,5 +20,12 @@ class Game
     protected string $difficulty;
 
     protected Player $player;
+
+
+    public function __construct(string $difficulty, string $playerName, string $playerType)
+    {
+        $this->difficulty = $difficulty;
+        $this->player = new Player($playerType, $playerName);
+    }
     
 }
